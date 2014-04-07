@@ -28,16 +28,88 @@
         <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
         <title>Hello World</title>
     </head>
-    <body>
+    <body dir="rtl">
         <div data-role="page" id="pageone">
+          <div data-role="header">
+            <h1>كيف أصلى</h1>
+          </div>
+
           <div data-role="main" class="ui-content">
-            <a href="#pagetwo">Go to Page Two</a>
+              <ul data-role="listview" data-inset="true">
+                <li><a href="#SalahValue" class="ui-btn">منزلة الصلاة</a></li>
+                <li><a href="#SalahTimes" class="ui-btn">اوقات الصلاة</a></li>
+                <li><a href="#SalahConditions" class="ui-btn">شروط الصلاة</a></li>
+                <li><a href="#" class="ui-btn">كيف اصلى !</a></li>
+                <li><a href="#" class="ui-btn">عن التطبيق</a></li>
+              </ul>
+          </div>
+
+          <div data-role="footer">
+          </div>  
+        </div>
+
+        <div data-role="page" id="SalahValue">
+          <div data-role="header">
+            <h1>منزلة الصلاة</h1>
+          </div>
+
+          <div data-role="main" class="ui-content">
+            <p>الصلاة هى عماد الدين الذى لا يقوم الا بة</p>
+            <p>فرضت الصلاة على النبى صلى الله علية وسلم ليلة الاسراء والمعراج</p>
+            <p>"و هى اول ما يحاسب علية العبد, فقد قال الرسول صلى الله علية وسلم "اول ما يحاسب علية العبد يوم القيامة الصلاة فان صلحت صلح سائر عملة وان فسدت فسد سائر عملة</p>
+            <p>"وهى اول وصية وصى بها رسول الله صلى الله علية وسلم امتة عند مفارقة الدنيا, جعل يقول وهو يلفظ انفاسة الاخيرة "الصلاة الصلاة وما ملكت ايمانكم</p>
+            <p>و عدد الفرائض فى اليوم والليلة خمس</p>
+          </div>
+
+          <div data-role="footer">
           </div>
         </div>
 
-        <div data-role="page" id="pagetwo">
+        <div data-role="page" id="SalahConditions">
+          <div data-role="header">
+            <h1>شروط الصلاة</h1>
+          </div>
+
           <div data-role="main" class="ui-content">
-            <a href="#pageone">Go to Page One</a>
+            <p>العلم بدخول الوقت و يكفى غلبة الظن</p>
+            <p>الطهارة من الحدث الاصغر والاكبر</p>
+            <p>طهارة البدن والثوب والمكان الذى يصلى فية من النجاسة الحسية على قدر الامكان</p>
+            <p>ستر العورة</p>
+            <p>استقبال القبلة على قدر الامكان</p>
+          </div>
+
+          <div data-role="footer">
+          </div>
+        </div>
+
+        <div data-role="page" id="SalahTimes">
+          <div data-role="header">
+            <h1>اوقات الصلاة</h1>
+          </div>
+
+          <div data-role="main" class="ui-content">
+            <h1>وقت صلاة الصبح</h1>
+            <p>"من طلوع الفجر ويستمر الى طلوع الشمس"الشروق</p>
+            <h1>وقت صلاة الظهر</h1>
+            <p>من زوال الشمس عن وسط السماء ويمتد الى ان يصير ظل كل شئ مثلة</p>
+            <h1>وقت صلاة العصر</h1>
+            <p>وقت فضيلة وهو اول الوقت</p>
+            <p>وقت اختيار ويمتد حتى يصير ظل الشئ مثلية</p>
+            <p>وقت جواز بلا كراهة ويمتد الى الاصفرار</p>
+            <p>وقت جواز مع كراهة ووقتة من الاصفرار الى الغروب</p>
+            <p>وقت عذر فى حالة من يجمع بين العصر والظهر لسفر او مطر<</p>
+            <h1>وقت صلاة المغرب</h1>
+            <p>يدخل عند غياب الشمس وتوارها بالحجاب ومتد الى مغيب الشفق الاحمر</p>
+            <h1>وقت صلاة العشاء</h1>
+            <p>هناك وقت اختيار ووقت جواز واضطرار</p>
+            <p>وقت الاختيار ويدخل بمغيب الشفق الاحمر ويمتد الى نصف الليل</p>
+            <p>وقت جواز و اضطرار وممتد الى فجر</p>
+            <p>والافضل تأخير صلاة العشاء الى اخر وقتها المختار وهو نصف الليل</p>
+            <h3>من ادرك ركعة من الصلاة قبل خروج الوقت فقد ادرك الصلاة</h3>
+            <h3>من نام عن صلاة او نسيها فوقتها حين يذكرها</h3>
+          </div>
+
+          <div data-role="footer">
           </div>
         </div>
 
